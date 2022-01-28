@@ -1,4 +1,4 @@
-{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/5c37ad87222cfc1ec36d6cd1364514a9efc2f7f2.tar.gz") {}, compiler ? "ghc8107" }:
+{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/6c4b9f1a2fd761e2d384ef86cff0d208ca27fdca.tar.gz") {}, compiler ? "ghc8107" }:
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
