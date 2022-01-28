@@ -1,2 +1,2 @@
-{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/6c4b9f1a2fd761e2d384ef86cff0d208ca27fdca.tar.gz") {}, compiler ? "ghc8107" }:
+{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/b05d2077ebe219f6a47825767f8bab5c6211d200.tar.gz") {}, compiler ? "ghc902" }:
 pkgs.pkgs.haskell.packages.${compiler}.callPackage ./haskellings.nix { }

@@ -4,7 +4,7 @@
 }:
 mkDerivation {
   pname = "haskellings";
-  version = "0.9.1.0";
+  version = "0.9.2.0";
   src = ./.;
   isLibrary = true;
   isExecutable = true;
